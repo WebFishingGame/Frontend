@@ -1,4 +1,5 @@
 import React from "react";
+import './reset.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Main/main.tsx";
 
