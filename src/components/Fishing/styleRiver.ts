@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const RiverBackground = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: calc(100vw - 1em);
+  height: calc(100vh - 1em);
   background-color: #00e0ff;
   padding-top: 1em;
+  padding-left: 1em;
 `;
 
 export const InventoryBoxes = styled.div`
@@ -16,7 +17,6 @@ export const InventoryBoxes = styled.div`
   height: 28vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 1em;
 `;
 
 export const InventoryBox = styled.div`
