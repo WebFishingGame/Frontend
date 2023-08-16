@@ -3,6 +3,8 @@ import "./reset.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Main/main.tsx";
 import Fishing from "./components/Fishing/river.tsx";
+import RealEstate from "./components/realEstate/realEstate.tsx";
+import Shopping from "./components/Shop/shopping.tsx";
 
 function App() {
   return (
@@ -10,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/shop" element={"쇼핑"} />
+          <Route path="/shop" element={<Shopping />} />
           <Route path="/fishing" element={<Fishing />} />
-          <Route path="/realEstate" element={"부동산"} />
+          <Route path="/realEstate" element={<RealEstate />} />
           <Route path="*" element={"없는 페이지 또는 Main으로 이동"} />
         </Routes>
       </BrowserRouter>
