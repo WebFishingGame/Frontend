@@ -44,3 +44,16 @@ export const ButtonText = styled.div`
   width: 100px;
   text-align: center;
 `;
+
+export const TimeBox = styled.div`
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  background-color: white;
+  width: 15em;
+  height: 3em;
+  text-align: center;
+  padding-top: 1.5em;
+  border: 1px solid black;
+  border-radius: 30em;
+`;
