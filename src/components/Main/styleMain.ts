@@ -37,7 +37,7 @@ export const GameButtonLink = styled(Link)`
 `;
 
 export const BetweenBox = styled.div`
-  width: 10rem;
+  width: 10 rem;
 `;
 
 export const ButtonText = styled.div`
