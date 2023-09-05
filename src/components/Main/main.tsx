@@ -22,7 +22,7 @@ const FishingPage = () => {
         <S.GameButtonLink to="/fishing">
           <S.ButtonText>낚시터</S.ButtonText>
         </S.GameButtonLink>
-        <S.TimeBox>{nowTime}</S.TimeBox>
+        <S.TimeBox>지금 시간은? : {nowTime}</S.TimeBox>
         <S.BetweenBox></S.BetweenBox>
         <S.GameButtonLink to="/realEstate">
           <S.ButtonText>부동산</S.ButtonText>
